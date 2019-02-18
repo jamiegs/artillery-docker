@@ -2,7 +2,8 @@ FROM node:10-alpine
 
 MAINTAINER Jamie Snell <jgsnell@gmail.com>
 
-ENV ARTILLERY_VERSION 1.6.0-12
+ARG version
+ENV ARTILLERY_VERSION 1.5.8-0
 
 WORKDIR /artillery
 
